@@ -18,6 +18,8 @@
 		5AD1471917B0CEE70015CF76 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD1471817B0CEE70015CF76 /* Default-568h@2x.png */; };
 		5AD1471C17B0CEE70015CF76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD1471B17B0CEE70015CF76 /* ViewController.m */; };
 		5AD1471F17B0CEE70015CF76 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AD1471D17B0CEE70015CF76 /* ViewController.xib */; };
+		5AD1472617B0D1300015CF76 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD1472517B0D1300015CF76 /* MapKit.framework */; };
+		5AD1472817B0E2990015CF76 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD1472717B0E2990015CF76 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		5AD1471A17B0CEE70015CF76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5AD1471B17B0CEE70015CF76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5AD1471E17B0CEE70015CF76 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		5AD1472517B0D1300015CF76 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5AD1472717B0E2990015CF76 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD1472817B0E2990015CF76 /* CoreLocation.framework in Frameworks */,
+				5AD1472617B0D1300015CF76 /* MapKit.framework in Frameworks */,
 				5AD1470317B0CEE70015CF76 /* UIKit.framework in Frameworks */,
 				5AD1470517B0CEE70015CF76 /* Foundation.framework in Frameworks */,
 				5AD1470717B0CEE70015CF76 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +79,8 @@
 		5AD1470117B0CEE70015CF76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5AD1472717B0E2990015CF76 /* CoreLocation.framework */,
+				5AD1472517B0D1300015CF76 /* MapKit.framework */,
 				5AD1470217B0CEE70015CF76 /* UIKit.framework */,
 				5AD1470417B0CEE70015CF76 /* Foundation.framework */,
 				5AD1470617B0CEE70015CF76 /* CoreGraphics.framework */,
@@ -298,6 +306,7 @@
 				5AD1472417B0CEE70015CF76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
