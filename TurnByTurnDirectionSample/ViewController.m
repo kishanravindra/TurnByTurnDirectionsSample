@@ -32,7 +32,6 @@
 
 - (IBAction)onDestinationButton:(id)sender {
     
-    
     UIButton *button = (UIButton *)sender;
     int destination = button.tag;
     switch (destination) {
